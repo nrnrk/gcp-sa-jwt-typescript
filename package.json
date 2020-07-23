@@ -1,0 +1,36 @@
+{
+  "name": "gcp-sa-jwt-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "gcp-sa-jwt-verify": "dist/index.js"
+  },
+  "scripts": {
+    "exec": "npx tsc && npx node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrnrk/gcp-sa-jwt-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrnrk/gcp-sa-jwt-typescript/issues"
+  },
+  "homepage": "https://github.com/nrnrk/gcp-sa-jwt-typescript#readme",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/jsonwebtoken": "^8.5.0",
+    "@types/node": "^14.0.24",
+    "@types/node-rsa": "^1.0.0",
+    "ts-loader": "^8.0.1",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "jsonwebtoken": "^8.5.1",
+    "node-rsa": "^1.1.1"
+  }
+}
